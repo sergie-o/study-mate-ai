@@ -3,7 +3,7 @@ langchain
 langchain-openai
 langchain-chroma
 chromadb
-PyPDF2
+PyPDF2==3.0.1
 pandas
 openpyxl
 langdetect

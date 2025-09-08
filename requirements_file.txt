@@ -1,0 +1,11 @@
+streamlit
+langchain
+langchain-openai
+langchain-chroma
+chromadb
+PyPDF2
+pandas
+openpyxl
+langdetect
+openai
+python-dotenv

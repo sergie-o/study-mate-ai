@@ -1,5 +1,5 @@
 import io
-import PyPDF
+import pypdf as PyPDF2
 from langchain.schema import Document
 from langchain.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
@@ -228,7 +228,7 @@ class MultiLanguageRAG:
         documents = []
         try:
             # Read PDF
-            pdf_reader = PyPDF.PdfReader(uploaded_file)
+            pdf_reader = PyPDF2.PdfReader(uploaded_file)
             text_content = ""
 
             for page_num, page in enumerate(pdf_reader.pages):

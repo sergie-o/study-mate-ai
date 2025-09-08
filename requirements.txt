@@ -1,0 +1,12 @@
+langchain==0.3.27
+langchain_chroma==0.2.5
+langchain_ollama==0.3.7
+langdetect==1.0.9
+numpy==2.3.2
+pandas==2.3.2
+plotly==6.3.0
+pypdf==6.0.0
+streamlit==1.49.1
+torch==2.6.0
+transformers==4.56.0
+transformers==4.51.0
